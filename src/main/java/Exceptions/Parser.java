@@ -64,7 +64,7 @@ public class Parser {
                 }
             }
 
-                if ((el == "f") || (el == "m")){
+                if ((el.toLowerCase().equals("f")) || (el.toLowerCase().equals("m"))){
                     data.setSex(el);
             }
             try{
